@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  height: 800px;
+  margin: 0;
+  padding: 0;
+}
+
+.blue{
+    background-color: deepskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+    height: 700px;
+}
+
+.red{
+    background-color: mediumorchid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+}
+
+.white{
+    background-color: mintcream;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.white:nth-child(2):hover{
+    background-color: salmon;
+}

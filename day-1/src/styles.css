@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  height: 1500px;
+  margin: 0;
+  padding: 0;
+}
+
+.red{
+    background-color: lightcoral;
+    position: fixed;
+    width: 830px;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    z-index: 4;
+}
+
+.blue{
+    background-color: lightskyblue;
+    color: white;
+    position: relative;
+    width: 830px;
+    height: 1670px;
+
+    padding-top: 70px;
+}
+
+.text{
+    position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 75px;
+    padding-left: 60px;
+}
+
+.blue__yellow{
+    background-color: yellow;
+    position: absolute;
+    right: 0px;
+    left: 585px;
+    width: 230px;
+    height: 1655px;
+    border: 7px solid gray;
+    
+}
+
+.green{
+    background-color: lightgreen;
+    position: absolute;
+    width: 110px;
+    height: 40px;
+    bottom: 1650px;
+    left: 530px;
+    z-index: 5;
+}
