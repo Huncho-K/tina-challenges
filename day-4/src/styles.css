@@ -1,0 +1,121 @@
+body {
+  font-family: sans-serif;
+  height: 800px;
+  margin: 0;
+  padding: 0;
+}
+
+.box1 {
+  background-color: skyblue;
+  height: 500px;
+  width: 600px;
+  margin: 10px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box2 {
+  background-color: teal;
+  height: 500px;
+  width: 600px;
+  margin: 10px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@keyframes anim2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+.container1 {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  animation: anim2 0.75s ease-in-out infinite;
+}
+
+.img1,
+.img2,
+.img3 {
+  position: relative;
+  bottom: 45px;
+  color: white;
+  font-size: 70px;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.container2 {
+  justify-content: space-between;
+  width: fit-content;
+}
+
+@keyframes anim {
+  0% {
+    transform: scaleY(1);
+  }
+  20% {
+    transform: scaleY(2);
+  }
+  40% {
+    transform: scaleY(1);
+  }
+  60% {
+    transform: scaleY(1);
+  }
+  80% {
+    transform: scaleY(1);
+  }
+  100%{
+    transform: scaleY(1);
+  }
+}
+
+.img4,
+.img5,
+.img6,
+.img7,
+.img8 {
+  background-color: white;
+  width: 10px;
+  height: 40px;
+  display: inline-block;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img4 {
+  animation: anim 1.75s ease-in-out infinite;
+}
+
+.img5 {
+  animation: anim 1.75s ease-in-out infinite;
+  animation-delay: 0.25s;
+}
+
+.img6 {
+  animation: anim 1.75s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+
+.img7 {
+  animation: anim 1.75s ease-in-out infinite;
+  animation-delay: 0.75s;
+}
+
+.img8 {
+  animation: anim 1.75s ease-in-out infinite;
+  animation-delay: 1s;
+}
