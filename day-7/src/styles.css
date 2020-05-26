@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap");
+
+body {
+  font-family: Titillium;
+  height: 800px;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-color: snow;
+  width: 300px;
+  height: 550px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin-top: -400px;
+  margin-left: -200px;
+  border-radius: 40px;
+  border: 0.5px solid rgb(211, 208, 208);
+  box-shadow: inset -7px -14px 27px -18px #a9a9a9, 19px 14px 41px 3px #a9a9a9;
+}
+
+.title {
+  width: 60px;
+  height: 35px;
+  position: relative;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.input1,
+.input2 {
+  background-color: white;
+  opacity: 0.6;
+  font-size: 13px;
+  border: 1px solid rgb(226, 222, 222);
+  border-radius: 5px;
+  margin-left: 17px;
+  margin-right: 17px;
+  padding-top: 7px;
+  padding-left: 8px;
+  width: 250px;
+  height: 25px;
+  margin-bottom: 20px;
+}
+
+.input1 {
+  margin-top: 20px;
+}
+
+.input2 {
+  margin-bottom: 8px;
+}
+
+.pw {
+  color: rgb(216, 74, 74);
+  text-align: right;
+  margin-right: 17px;
+  margin-left: 17px;
+  margin-top: 2px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.rm {
+  margin-left: 17px;
+  margin-right: 17px;
+  display: flex;
+  opacity: 0.7;
+  font-size: 13px;
+}
+
+.rm1,
+.rm2 {
+  margin: 3px;
+}
+
+.rm1 {
+  color: rgb(216, 74, 74);
+}
+
+.signIn {
+  background-color: rgb(216, 74, 74);
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  width: 240px;
+  height: 20px;
+  padding: 5px 0px;
+  margin: 30px auto;
+}
+
+.or {
+  font-weight: 600;
+  font-size: 13px;
+  margin: 15px 17px;
+  margin-bottom: 10px;
+}
+
+.sns {
+  display: flex;
+  margin: 15px 17px;
+}
+
+.fb,
+.tw {
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 11px;
+  color: white;
+  text-align: center;
+  width: 110px;
+  height: 17px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  margin: 20px auto;
+}
+
+.fb {
+  background-color: rgb(40, 40, 133);
+}
+
+.tw {
+  background-color: dodgerblue;
+}
+
+.acc,
+.passw {
+  display: flex;
+  margin-left: 17px;
+  margin-right: 17px;
+  font-size: 13px;
+  padding: 0px;
+  margin-bottom: 2px;
+}
+
+.acc1,
+.acc3 {
+  opacity: 0.6;
+  margin: 0px;
+}
+
+.acc2,
+.acc4 {
+  color: rgb(216, 74, 74);
+  font-weight: 700;
+  margin-left: 4px;
+}
